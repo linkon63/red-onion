@@ -1,0 +1,14 @@
+.checkoutFood{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    background: #e9e9e9;
+    padding: 12px;
+    border-radius: 8px;
+}
+.checkoutFood .foodDetails{
+    margin-left: 30px;
+}
+.counter-area{
+    margin-left: auto;
+}

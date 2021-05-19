@@ -1,0 +1,35 @@
+.route-area{
+    height:auto;
+}
+
+.foodContainer Button{
+    margin: 0 20px;
+}
+.active {
+    background-color: #4759c0b4 !important;
+    color: white !important;
+}
+.cart-lenght{
+    font-weight: bold;
+    font-size: 22px;
+    color: tomato;
+    margin-left: -12px;
+}
+.disabled{
+    color: black !important;
+}
+/* @media only screen and (max-width: 810px) {
+    .route-area{
+        height:750px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .route-area{
+        height:1160px;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .route-area{
+        height:1030px;
+    }
+} */

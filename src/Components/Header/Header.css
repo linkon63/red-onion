@@ -1,0 +1,20 @@
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar img{
+    width: 180px;
+}
+.login-area{
+    display: flex;
+    align-items: center;
+}
+.login-itme{
+    margin: 0 10px;
+}
+.navbar Button{
+    font-size: 12px !important;
+    font-weight: bold;
+    text-transform: capitalize;
+}

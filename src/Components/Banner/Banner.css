@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300;400;600&display=swap');
+.banner-area{
+    height: 65vh;
+    background-image:
+    linear-gradient(to bottom, rgba(255, 221, 249, 0.22), rgba(201, 39, 160, 0.4)), url('../../figures/bannerbackground.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-fild{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    
+}
+.search-fild h1{
+    font-size: 65px;
+    text-transform: capitalize;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    letter-spacing: 5px;
+
+    /* text-shadow: 0 2px 1px #747474, 
+      -1px 3px 1px #767676, 
+      -2px 5px 1px #787878, 
+      -3px 7px 1px #7a7a7a,
+      -4px 9px 1px #7f7f7f,
+      -5px 11px 1px #838383,
+      -6px 13px 1px #878787,
+      -7px 15px 1px #8a8a8a, 
+      -8px 17px 1px #8e8e8e,
+      -9px 19px 1px #949494,
+      -10px 21px 1px #989898,
+      -11px 23px 1px #9f9f9f,
+      -12px 25px 1px #a2a2a2, 
+      -13px 27px 1px #a7a7a7,
+      -14px 29px 1px #adadad,
+      -15px 31px 1px #b3b3b3,
+      -16px 33px 1px #b6b6b6,
+      -17px 35px 1px #bcbcbc, 
+      -18px 37px 1px #c2c2c2,
+      -19px 39px 1px #c8c8c8,
+      -20px 41px 1px #cbcbcb,
+      -21px 43px 1px #d2d2d2,
+      -22px 45px 1px #d5d5d5, 
+      -23px 47px 1px #e2e2e2,
+      -24px 49px 1px #e6e6e6,
+      -25px 51px 1px #eaeaea,
+      -26px 53px 1px #efefef; */
+}
+.search-fild input{
+    border: none;
+    line-height: 2rem;
+    padding: 8px 16px;
+    width: 60%;
+    border-radius: 30px;
+    transition: .3s;
+    box-shadow: 0 0 5pt 0.5pt #b9b9b9;
+}
+
+  .search-fild  input[type=text]:focus {
+    box-shadow: 0 0 5pt 2pt #acacac;
+    outline-width: 0px;
+  }
+.search-fild input::placeholder{
+    text-transform: capitalize;
+}
+.search-fild button{
+    border: none;
+    height: 3rem; 
+    width: 120px; 
+    background: #f0315a;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    border-radius: 30px;
+    margin-left: -100px;
+}
+.search-fild input:focus-visible{
+    outline: none;
+}
+
+@media only screen and (max-width: 992px) {
+    .search-fild{
+        width: 80%;
+    }
+    .search-fild input{
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .search-fild h1{
+        font-size: 45px
+    }
+}
+@media only screen and (max-width: 550px) {
+    .search-fild h1{
+        font-size: 35px
+    }
+    .search-fild input{
+        width: 80%;
+    }
+    
+
+}

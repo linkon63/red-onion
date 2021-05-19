@@ -1,0 +1,30 @@
+.checkoutForm{
+    width: 70%;
+    margin: auto;
+}
+.checkoutForm input:focus-visible{
+    outline: none;
+}
+.checkoutForm input{
+    width: 100%;
+    background: #e9e9e9;
+    padding: 7px 10px;
+    border-radius: 5px;
+    border: none !important;
+    color: grey;
+    margin-bottom: 20px;
+}
+.checkoutForm h2{
+    text-transform: capitalize;
+    border-bottom: 1px solid black;
+    padding-bottom: 16px;
+    margin-bottom: 26px;
+    color: #474747;
+}
+.checkoutForm input[type="submit"]{
+    background: #ff4242ec;
+    color: white;
+}
+.checkoutForm input[type="submit"]:hover{
+    background: #ff4242;
+}

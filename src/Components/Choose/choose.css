@@ -1,0 +1,33 @@
+.arrow{
+    font-size: 12px;
+    padding: 2px;
+    height: 20px;
+    width: 20px;
+    background: #2df379;
+    color: white;
+    border-radius: 50%;
+}
+a{text-decoration: none;font-weight: bold;}
+.figure{
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 25px;
+}
+.figure:hover img{
+    
+    transition: .8s;
+    transform: scale(1.2);
+}
+.section-typograph{
+    width: 60%;
+}
+@media only screen and (max-width: 992px) {
+    .section-typograph{
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .section-typograph{
+        width: 90%;
+    }
+}
